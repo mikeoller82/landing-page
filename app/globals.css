@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  @apply bg-white text-gray-900;
+}
+
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
